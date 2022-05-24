@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import mh4 from "./assets/MHRise_Multiplayer_Tigrex_4.0.jpg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <header className="header">This is the header</header>
+      <img className="imgStyle" src={mh4} alt="No monsters here yet" />
+      <body className="page_background">
+        <p1 className="paragraph">Good day</p1>
+      </body>
     </div>
   );
 }
